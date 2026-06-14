@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "ClosetAI",
+    "slug": "closet-ai",
+    "version": "1.0.0",
+    "scheme": "closetai",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "ClosetAI uses your camera so you can photograph clothing.",
+          "recordAudioAndroid": false,
+          "barcodeScannerEnabled": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ClosetAI uses your photos so you can add clothing to your wardrobe.",
+          "cameraPermission": "ClosetAI uses your camera so you can photograph clothing.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamhacks.closetai"
+    },
+    "android": {
+      "package": "com.jamhacks.closetai",
+      "adaptiveIcon": {
+        "backgroundColor": "#8B5B3D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
