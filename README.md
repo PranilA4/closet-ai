@@ -4,7 +4,7 @@ An Expo wardrobe app with private accounts, intact garment images, verified
 Canadian product matching, personalized outfits, laundry tracking, and wardrobe
 insights.
 
-## Run locally
+# Run locally
 
 ```bash
 npm install
